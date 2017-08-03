@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="flexganttfx-core-8.8.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Operating Systems/lib/flexganttfx-core-8.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Operating Systems/lib/flexganttfx-extras-8.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Operating Systems/lib/flexganttfx-model-8.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Operating Systems/lib/flexganttfx-view-8.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

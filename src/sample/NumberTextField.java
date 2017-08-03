@@ -1,0 +1,31 @@
+package sample;
+
+import javafx.scene.control.TextField;
+
+/**
+ * Used for only letting a user enter in non-negative integers
+ */
+public class NumberTextField extends TextField {
+
+    public NumberTextField() {
+        setPrefWidth(100.0);
+    }
+
+    @Override
+    public void replaceText(int start, int end, String text) {
+        if (validate(text)) {
+            super.replaceText(start, end, text);
+        }
+    }
+
+    @Override
+    public void replaceSelection(String text) {
+        if (validate(text)) {
+            super.replaceSelection(text);
+        }
+    }
+
+    private boolean validate(String text) {
+        return text.matches("[0-9]*");
+    }
+}
